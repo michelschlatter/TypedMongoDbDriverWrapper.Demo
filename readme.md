@@ -33,12 +33,12 @@ Start the  ```Demo.Api``` Project and use the Swagger-Page to use the Api.
 Customize the following Classes
 
  - ``` CollectionProvider ```
- - ``` AppDbContext```
+ - ```AppDbContext```
  - ``` IndexFactory ``` (optional)
 
 
 
-Every ``` Document ``` inherits ``` BaseDocument ``` which holds the ``` id ```.  
+Every ``` Document ``` inherits ``` BaseDocument ``` which holds the ``` Id ```.  
 Each ``` Repository ``` inherits from ``` BaseRepository ``` which implements basic CRUD-Operations.
 
 
