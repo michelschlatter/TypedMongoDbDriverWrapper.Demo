@@ -16,10 +16,14 @@ If you wish for a specific example don't hesitate to contact me.
 # Usage
 
 The easiest way to start is to create a Free DB on MongoDb Atlas (https://www.mongodb.com/cloud/atlas/register) or
-run the image ```mongo:latest``` in Docker.
+run the image ```mongo:latest``` in Docker.  
 
 
-In the  ``` application.development.json ``` you can add your ```connection string``` and ```dbname```.  
+In the  ``` application.development.json ``` change the following placeholders:  
+-   ```<user-name>```
+-   ```<pw>```
+-   ```<db-name>```
+
 If you're using MongoDb Atlas do not forget to whitelist your IP in MongoDb Atlas else you will get a timeout.
 
 Start the  ```Demo.Api``` Project and use the Swagger-Page to use the Api.
