@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongoDbDriverWrapper.Demo.Api", "MongoDbDriverWrapper.Demo\MongoDbDriverWrapper.Demo.Api.csproj", "{D50D040E-BF6D-4DFD-B675-BB1E09A7510F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongoDbDriverWrapper.Demo.Db", "MongoDbDriverWrapper.Demo.Db\MongoDbDriverWrapper.Demo.Db.csproj", "{E3E59DCE-BCB8-4115-BACB-7744EFF1C51D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D50D040E-BF6D-4DFD-B675-BB1E09A7510F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D50D040E-BF6D-4DFD-B675-BB1E09A7510F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D50D040E-BF6D-4DFD-B675-BB1E09A7510F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D50D040E-BF6D-4DFD-B675-BB1E09A7510F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3E59DCE-BCB8-4115-BACB-7744EFF1C51D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3E59DCE-BCB8-4115-BACB-7744EFF1C51D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3E59DCE-BCB8-4115-BACB-7744EFF1C51D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3E59DCE-BCB8-4115-BACB-7744EFF1C51D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A9CEED80-97FD-4B36-8056-B36BDA65B470}
+	EndGlobalSection
+EndGlobal
