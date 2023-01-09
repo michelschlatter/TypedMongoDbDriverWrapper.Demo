@@ -8,7 +8,7 @@
 
   <ItemGroup>
     <PackageReference Include="MongoDB.Driver" Version="2.18.0" />
-    <PackageReference Include="Typed.MongoDb.Driver.Wrapper" Version="0.0.1" />
+    <PackageReference Include="Typed.MongoDb.Driver.Wrapper" Version="1.0.0" />
   </ItemGroup>
 
 </Project>

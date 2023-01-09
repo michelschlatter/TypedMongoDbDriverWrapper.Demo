@@ -3,8 +3,8 @@
 
 Typed.MongoDb.Driver.Wrapper is a typed wrapper around the official MongoDbDriver and provides a BaseRepository which covers the basic CRUD operations.
 
-See https://github.com/michelschlatter/TypedMongoDbDriverWrapper or run
-```dotnet add package Typed.MongoDb.Driver.Wrapper```
+See https://github.com/michelschlatter/TypedMongoDbDriverWrapper   
+Nuget: ```dotnet add package Typed.MongoDb.Driver.Wrapper```
 
 This Project demonstrates the usage in a simple WebApi.  
 It also shows how to
