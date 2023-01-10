@@ -43,9 +43,14 @@ if (app.Environment.IsDevelopment())
 var authorRepository = app.Services.GetRequiredService<AuthorRepository>();
 var bookRepository = app.Services.GetRequiredService<BookRepository>();
 
-var author = new Author(null, "Patrick Süsskind", 1949);
+var author = new Author(null, "Patrick Süsskind",
+    1949,
+    "Ambach am Starnberger See",
+    "+49 89 123456789");
 await authorRepository.InsertOneAsync(author);
+
 var book = new Book(null, author.Id.ToString(),
+    author.FullName,
     "Das Parfüm",
     "..Description..",
     new Publisher("Diogenes Verlag", "Zürich"));

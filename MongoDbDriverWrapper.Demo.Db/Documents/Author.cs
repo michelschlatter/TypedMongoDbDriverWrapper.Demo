@@ -5,13 +5,21 @@
         public Author() { }
         public Author(string? id) : base(id) { }
 
-        public Author(string? id, string name, int yearBorn)
+        public Author(string? id,
+            string fullName,
+            int yearBorn,
+            string address,
+            string telephone)
         {
-            Name = name;
+            FullName = fullName;
             YearBorn = yearBorn;
+            Address = address;
+            Telephone = telephone;
         }
 
-        public string Name { get; set; } = string.Empty;
+        public string FullName { get; set; } = string.Empty;
         public int YearBorn { get; set; }
+        public string Address { get; set; } = string.Empty;
+        public string Telephone { get; set; } = string.Empty;
     }
 }
