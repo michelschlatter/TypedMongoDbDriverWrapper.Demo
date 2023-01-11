@@ -43,5 +43,15 @@ namespace MongoDbDriverWrapper.Demo.Api.Controllers
             await _authorRepository.InsertOneAsync(author);
             return await _authorRepository.GetSingleOrThrowAsync(author.Id.ToString());
         }
+
+        [HttpPut]
+        public async Task<Author> Update(Author author)
+        {
+            _logger.LogTrace($"Received Request in {nameof(AuthorsController)}.{nameof(Update)}");
+
+            if (author.Id == ObjectId.Empty) throw new Exception($"{nameof(author.Id)} can not be null or empty");
+            await _authorRepository.ReplaceOneAsync(author);
+            return await _authorRepository.GetSingleOrThrowAsync(author.Id.ToString());
+        }
     }
 }

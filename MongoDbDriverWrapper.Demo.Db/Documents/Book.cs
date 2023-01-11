@@ -15,6 +15,7 @@ namespace MongoDbDriverWrapper.Demo.Db.Documents
             string description,
             Publisher publisher) : base(id)
         {
+            AuthorFullName = authorFullName;
             AuthorId = ObjectId.Parse(authorId);
             Title = title;
             Description = description;

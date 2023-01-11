@@ -9,7 +9,7 @@
             string fullName,
             int yearBorn,
             string address,
-            string telephone)
+            string telephone) : base(id)
         {
             FullName = fullName;
             YearBorn = yearBorn;
